@@ -7,3 +7,6 @@
 - **Rendering List**: Using `.map()` to render a list of items.
 - **Conditional Rendering**: Using logical operators or ternary operators to render elements conditionally.
 - **Handling Event**: Adding event listeners like `onClick` to elements.
+
+## 2026-02-21
+- **Binding Event Handlers**: Exploring how `this` keyword works in React Class Components and using arrow functions as a cleaner alternative.

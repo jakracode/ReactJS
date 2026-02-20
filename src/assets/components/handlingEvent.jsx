@@ -2,7 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class HandlingEve extends React.Component{
-    states = {
+    state = {
         count: 0,
     };
 
@@ -13,7 +13,7 @@ class HandlingEve extends React.Component{
     render(){
         return(
             <div>
-                <button onClick={this.handleIncrement()} className='btn btn-secondary btn-sm'>Click</button>
+                <button onClick={this.handleIncrement} className='btn btn-secondary btn-sm'>Click</button>
             </div>
         )
     }

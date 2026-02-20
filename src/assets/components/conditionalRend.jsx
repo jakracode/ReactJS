@@ -1,7 +1,7 @@
 import React from "react";
 
 class ConditionRend extends React.Component {
-  states = {
+  state = {
     count: 1,
     // tags: ["tag1", "tag2", "tag3", "tag4"],
     tags: [],
@@ -10,11 +10,11 @@ class ConditionRend extends React.Component {
 
 // Create an if else method in JS function and call to use at JSX
   renderTags() {
-    if (this.states.tags.length === 0) return <p>There are no tags!</p>;
+    if (this.state.tags.length === 0) return <p>There are no tags!</p>;
 
     return (
       <ul>
-        {this.states.tags.map((tag) => (
+        {this.state.tags.map((tag) => (
             <li key={tag}>{tag}</li>
         ))}
       </ul>
@@ -27,7 +27,7 @@ render() {
         {this.renderTags()}
 
         {/* Another way */}
-        { this.states.tags.length === 0 && 'There are no tags!' }
+        { this.state.tags.length === 0 && 'There are no tags!' }
     </div>;
   }
 }

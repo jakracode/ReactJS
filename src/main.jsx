@@ -8,6 +8,9 @@ import RenderingCls from './assets/components/renderingCls.jsx'
 import RenderingLst from './assets/components/renderingList.jsx'
 import ConditionRend from './assets/components/conditionalRend.jsx'
 import HandlingEve from './assets/components/handlingEvent.jsx'
+import BindHandler from './assets/components/bindEventHandler.jsx'
+import UpdateState from './assets/components/updateState.jsx'
+import PassingEvent from './assets/components/passEventArg.jsx'
 
 createRoot(document.getElementById('root')).render(
     // <App />,
@@ -16,5 +19,9 @@ createRoot(document.getElementById('root')).render(
     // <RenderingCls />,
     // <RenderingLst />,
     // <ConditionRend />,
-    <HandlingEve />
+    // <HandlingEve />,
+    // <BindHandler />,
+    // <UpdateState />,
+    <PassingEvent />
+
 )
