@@ -1,0 +1,2 @@
+** There has no Loop method in JSX **
+** There has no If else method in JSX too! **
