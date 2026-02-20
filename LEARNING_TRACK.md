@@ -10,3 +10,5 @@
 
 ## 2026-02-21
 - **Binding Event Handlers**: Exploring how `this` keyword works in React Class Components and using arrow functions as a cleaner alternative.
+- **Passing Event Arguments**: How to pass custom arguments to event handlers using arrow functions.
+- **Updating State**: Using `this.setState()` to update component state and trigger re-renders.
